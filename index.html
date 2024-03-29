@@ -9,7 +9,10 @@
     <style>
         /* ★ 추가 - *는, 전체선택자 - margin바깥여백과 padding안쪽여백 0으로 해주어 여백 초기화 */
         /* 초기화 */
-        * {  
+
+        @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+        * {
             margin: 0;
             padding: 0;
         }
@@ -43,12 +46,21 @@
             /* ★ 추가 - 선(border) 
              추가시 해당 사이즈가 기본 사이즈에 포함되도록 설정*/
         }
+
+        h1 {
+            font-family: "Julius Sans One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin-bottom: 50px;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
     <!-- .pf (enter) -->
     <div class="pf">
+        <h1>ANSEON DESIGN</h1>
         <!-- div>a>img -->
         <!-- # - 임시링크 -->
         <div><a href="#"><img src="./images/1.jpg" alt="1"></a></div>
@@ -65,8 +77,8 @@
         <div><a href="#"><img src="./images/12.gif" alt="12"></a></div>
         <div><a href="#"><img src="./images/13.jpg" alt="13"></a></div>
         <div><a href="#"><img src="./images/14.jpg" alt="14"></a></div>
-        <div><a href="#"><img src="./images/15.jpg" alt="15"></a></div> 
-      
+        <div><a href="#"><img src="./images/15.jpg" alt="15"></a></div>
+
     </div>
 </body>
 
